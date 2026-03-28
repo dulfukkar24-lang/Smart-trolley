@@ -4,7 +4,7 @@ Presented By: Group 11 (Hareesh.S.Nair, Devika Rajeev, Dulfukkar Ali P.B, Vydheh
 Department: Sixth Semester, Electronics and Instrumentation Department  
 Institution:FISAT (Federal Institute of Science and Technology)
 
-https://drive.google.com/uc?export=view&id=14u27AaH_GW6Zz4MRQ7t0K7lk8-qUAq4C (poster)
+(https://drive.google.com/uc?export=view&id=136iePrOVIYkmOrWj7RObF3PiagQjpRy2) (poster)
 
 A next-generation smart shopping trolley that autonomously follows the user and features an integrated RFID scanning system for a seamless, cashier-less checkout experience. This project bridges the gap between IoT hardware and a modern web application to provide a complete smart retail solution.
 
