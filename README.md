@@ -1,4 +1,4 @@
-# **🛒 CART LINK: SMART . SEAMLESS . SHOPPING**
+# ** CART LINK: SMART . SEAMLESS . SHOPPING**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Hardware](https://img.shields.io/badge/Hardware-ESP32%20%7C%20Raspberry%20Pi-blue)](#hardware-setup-esp32)
@@ -29,26 +29,26 @@ A next-generation smart shopping trolley that autonomously follows the user and 
 - [Contributing](#-contributing)
 - [License](#-license)
 
-# **🎯 OBJECTIVES**
+# ** OBJECTIVES**
 - **To develop a trolley** which follows only a unique QR Code, scanned through a camera module.
 - **Design a RFID integrated** semi-automatic check out system.
 - **To develop a robust centralized database** architecture that synchronizes trolley data with the store's server for real-time billing and stock management.
 - **Replacing traditional billing counters** using IoT to reduce the waiting time.
 - **Integration of SLAM using LiDAR** for smooth and seamless navigation.
 
-# **✨ KEY FEATURES & SCOPE**
+# ** KEY FEATURES & SCOPE**
 
 By successfully integrating LiDAR based SLAM for navigation and RFID/IoT for real time data synchronization, the project proves that the difficulty of manual billing system can be eliminated.
 
 This module includes real-time image processing via the camera module to identify and track a **unique QR code** based identifier. By calculating the relative distance and angle of the target, the system dynamically adjusts the PWM signals to the BTS7960 motor drivers, ensuring a consistent following distance. This establishes a smooth and efficient shopping environment.
 
-- **🚶‍♂️ AUTONOMOUS HUMAN FOLLOWING**: The trolley tracks and follows the user using a 720p webcam and QR code detection.
-- **🗺️ SLAM NAVIGATION**: Utilizes YD LiDAR for safe pathfinding and obstacle avoidance.
-- **📡 REAL-TIME RFID SCANNING**: Powered by an ESP32 and MFRC522 RFID module. Instantly reads product tags.
-- **📱 WHATSAPP DIGITAL RECEIPTS**: After the billing session, the E-bill is sent directly to the customer's phone number.
-- **📧 AUTOMATED ADMIN NOTIFICATIONS**: Sends an automated email to the admins if the stocks in the shop are below a certain threshold.
+- ** AUTONOMOUS HUMAN FOLLOWING**: The trolley tracks and follows the user using a 720p webcam and QR code detection.
+- **SLAM NAVIGATION**: Utilizes YD LiDAR for safe pathfinding and obstacle avoidance.
+- ** REAL-TIME RFID SCANNING**: Powered by an ESP32 and MFRC522 RFID module. Instantly reads product tags.
+- ** WHATSAPP DIGITAL RECEIPTS**: After the billing session, the E-bill is sent directly to the customer's phone number.
+- ** AUTOMATED ADMIN NOTIFICATIONS**: Sends an automated email to the admins if the stocks in the shop are below a certain threshold.
 
-# **🛠️ METHODOLOGY & TECH STACK**
+# ** METHODOLOGY & TECH STACK**
 
 ## **Hardware Flow**
 1. **Human Following**: `QR Code` ➔ `720p Webcam` ➔ `Raspberry Pi 5` ➔ `ESP32` ➔ `BTS7960 Motor Driver` ➔ `12V DC Motor`
@@ -60,7 +60,7 @@ This module includes real-time image processing via the camera module to identif
 - **Frontend & Backend App**: Facilitates WebSocket real-time syncing and API logic.
 - **Hardware Integration**: Python (OpenCV for Pi), C++ (Arduino IDE for ESP32)
 
-# **⚡ ENERGY & CALCULATIONS**
+# ** ENERGY & CALCULATIONS**
 
 ## **Operating Voltage of Components:**
 - **Raspberry Pi**: `5V`
@@ -78,7 +78,7 @@ This module includes real-time image processing via the camera module to identif
   - Total Cell Count: 3 Series x 4 Parallel = `12 Cells`
   - Total Energy: 11.1V x 10Ah = `111Wh`
 
-# **🔮 FUTURE PLAN**
+# ** FUTURE PLAN**
 - **3D Depth Navigation**: Upgrading the SLAM using a 3D depth camera for more efficient navigation through crowded areas.
 - **UWB Integration**: Integrating the UWB module instead of the QR code for tracking.
 - **Voice Assisted Shopping**: Enabling customers to vocally communicate with the trolley as per their needs.
@@ -86,14 +86,14 @@ This module includes real-time image processing via the camera module to identif
 - **Autonomous Charging**: Implementing a charging station for the trolley to return to after use or when the battery has run out.
 - **Rendezvous Mode**: Train the trolley to assemble at a pick up point in case the person with the QR went missing.
 
-# **🌍 SDGs ADDRESSED**
+# **SDGs ADDRESSED**
 - **Goal 9**: Industry, Innovation and Infrastructure
 - **Goal 11**: Sustainable Cities and Communities
 - **Goal 12**: Responsible Consumption and Production
 
 ---
 
-# **📂 PROJECT STRUCTURE**
+# ** PROJECT STRUCTURE**
 
 ```text
 ├── hardware/               # ESP32, Arduino, and Pi Code
@@ -115,7 +115,7 @@ This module includes real-time image processing via the camera module to identif
     └── laptop_monitor.py   # Zenoh sensor data generator
 ```
 
-# **💻 SETUP & INSTALLATION**
+# ** SETUP & INSTALLATION**
 
 ## **1. Hardware Setup (ESP32)**
 1. Open the `hardware/rfid_scanner/rfid_scanner.ino` file in the Arduino IDE.
@@ -136,14 +136,14 @@ This module includes real-time image processing via the camera module to identif
 
 ---
 
-## **🤝 CONTRIBUTING**
+## **CONTRIBUTING**
 
 Contributions, issues, and feature requests are welcome!
 Feel free to check out the [issues page](https://github.com/dulfukkar24-lang/Smart-trolley/issues). Read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
 ---
 
-## **📝 LICENSE**
+## ** LICENSE**
 
 This project is licensed under the [MIT License](LICENSE).
 Copyright (c) 2026 Dulfukkar Ali, Hareesh S Nair, Vydehy T M, Devika Rajeev.
